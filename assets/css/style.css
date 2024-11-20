@@ -12,7 +12,8 @@
 }
 
 body {
-    background-color: var(--color-base2);
+    /*background: linear-gradient(45deg, rgba(0,0,0,1) 90%, rgba(255,255,255,1) 100%);*/
+    background-image: url(/assets/images/background-image.jpg);
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
 }
@@ -97,7 +98,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);
+        background-color: black;
         background-size: cover;
         background-position: center;
     }
